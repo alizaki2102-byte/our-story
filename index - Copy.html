@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#210d14">
+<title>علي ❤️ مرام | حكايتنا</title>
+<style>
+:root{--pink:#f28a9d;--cream:#f6dfcf;--line:rgba(255,220,215,.16)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;color:#f8e9e4;background:radial-gradient(ellipse at 50% 20%,#51232d 0%,#30151d 42%,#1b0b12 100%);font-family:"Segoe UI",Tahoma,Arial,sans-serif;overflow-x:hidden}
+#particles{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
+.particle{position:absolute;top:-30px;color:#f5b2b8;opacity:.28;animation:fall linear infinite}
+@keyframes fall{to{transform:translateY(110vh) rotate(360deg);opacity:0}}
+
+main{position:relative;z-index:1;max-width:540px;margin:0 auto;padding:20px 15px 50px}
+.panel{background:linear-gradient(145deg,rgba(255,239,235,.09),rgba(255,230,225,.035));border:1px solid var(--line);border-radius:25px;padding:18px;margin-bottom:17px;box-shadow:0 12px 35px #10060b36;backdrop-filter:blur(10px)}
+.section-title{text-align:center;color:#f1d6ca;font-size:16px;margin:0 0 10px;font-weight:800}
+.muted{text-align:center;color:#c9aaa8;font-size:13px;margin:0 0 15px;line-height:1.6}
+
+h1{text-align:center;font-size:clamp(26px,6vw,34px);margin:10px 0 5px;color:#f4d9d7;text-shadow:0 2px 18px #0005}
+.sub{text-align:center;color:#d8b9b8;margin:0 0 20px;font-size:13px}
+
+.day-count{width:min(260px,100%);min-height:140px;margin:15px auto;border-radius:23px;background:linear-gradient(145deg,rgba(242,138,157,.22),rgba(255,225,220,.07));border:1px solid #f3a9b766;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 10px 30px #0002}
+.day-count strong{font-size:60px;line-height:1;color:#ffdce0;text-shadow:0 0 22px #f28a9d55}
+.day-count span{font-size:16px;color:#f4cbd0;margin-top:8px}
+
+.music-card{display:flex;align-items:center;justify-content:space-between;gap:10px;background:rgba(255,230,225,.08);border-radius:20px;padding:12px}
+.music-info strong{display:block;font-size:14px;color:#f8e9e4}
+.music-info small{color:#cbaeb0;font-size:11px}
+.play{width:42px;height:42px;border:0;border-radius:50%;background:var(--pink);color:white;font-size:16px;cursor:pointer;flex:none}
+
+.promise-grid{display:grid;grid-template-columns:1fr;gap:8px}
+.promise{border:1px solid #f3d5ca20;background:rgba(255,235,230,.08);border-radius:18px;padding:12px;color:#f4dfd5;font-size:13px;font-weight:700;text-align:center}
+
+.messages{display:grid;grid-template-columns:1fr;gap:9px}
+.message{border:0;border-radius:17px;min-height:50px;padding:12px;background:linear-gradient(145deg,#f19aaa,#dc788b);color:white;font-weight:700;font-size:13px;cursor:pointer;text-align:center}
+
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.photo{margin:0;overflow:hidden;border-radius:17px;background:#27151a;border:1px solid #ffffff1b}
+.photo img{display:block;width:100%;aspect-ratio:1.2;object-fit:cover}
+
+.letter{text-align:center;padding:25px 15px}
+.big-heart{font-size:36px;color:#f28b9e;margin-bottom:10px}
+.letter p{font-size:13px;line-height:2;color:#e5ccca;margin:0}
+
+.footer{text-align:center;color:#b9989b;font-size:11px;margin-top:15px}
+
+.modal{position:fixed;inset:0;background:#10070bd9;z-index:5;display:none;align-items:center;justify-content:center;padding:20px}
+.modal.open{display:flex}
+.modal-box{width:min(350px,100%);padding:24px;text-align:center;border-radius:24px;background:#42202a;border:1px solid #f5b3bc55}
+.modal-box p{line-height:1.8;color:#f4dfd9;font-size:14px;margin-bottom:15px}
+.pill{background:linear-gradient(90deg,#e67e91,#f29baa);border:0;color:white;border-radius:30px;padding:10px 20px;font-weight:700;cursor:pointer}
+
+@media(min-width:650px){
+  .promise-grid{grid-template-columns:repeat(3,1fr)}
+  .messages{grid-template-columns:repeat(3,1fr)}
+  main{max-width:620px}
+}
+</style>
+</head>
+<body>
+<div id="particles"></div>
+
+<main>
+  <div style="text-align:center; padding: 20px 0;">
+    <h1>علي ❤️ مرام</h1>
+    <p class="sub">حكاية صغيرة… بس غالية أوي على قلبي</p>
+  </div>
+
+  <section class="panel">
+    <h2 class="section-title">♥ حكايتنا</h2>
+    <p class="muted">كل لحظة معاكي هي عمر جديد<br>من أول ما بدأت القصة</p>
+    <div class="day-count">
+      <strong>241</strong>
+      <span>يوم ❤️</span>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2 class="section-title">♫ موسيقتنا المفضلة</h2>
+    <div class="music-card">
+      <div class="music-info">
+        <strong>ليلى — كايروكي</strong>
+        <small>أغنيتنا اللي بتفكرني بيكي ♥</small>
+      </div>
+      <button class="play" id="musicBtn" aria-label="تشغيل">▶</button>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2 class="section-title">— وعد من القلب —</h2>
+    <div class="promise-grid">
+      <div class="promise">♡ هفضل سندك في كل وقت</div>
+      <div class="promise">♢ هحافظ دايماً على ضحكتك</div>
+      <div class="promise">∞ حكايتنا ملهاش نهاية</div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2 class="section-title">— رسائل صغيرة —</h2>
+    <div class="messages">
+      <button class="message" onclick="openModal('إنتي أجمل نعمة في حياتي، وجودك فرق معايا أوي يا مرام ♥')">إنتي أجمل نعمة في حياتي 💗</button>
+      <button class="message" onclick="openModal('حتى وإنتي قريبة، بيبقى نفسي أفضل معاكي طول العمر ✨')">وحشتيني وإنتي معايا ✨</button>
+      <button class="message" onclick="openModal('مكانك في قلبي محدش يقدر ياخده أبداً 💍')">ملِكة قلبي للأبد 💍</button>
+    </div>
+  </section>
+
+  <section class="panel letter">
+    <div class="big-heart">♥</div>
+    <h2 class="section-title" style="margin-bottom:10px;">إلى ملكة قلبي</h2>
+    <p>كل سنة واحنا مع بعض، وكل يوم بحبك فيه أكتر من اللي قبله. ربنا يخليكي ليا وما يحرمنيش من ضحكتك أبداً.</p>
+  </section>
+
+  <div class="footer">صُنع بحب كبير عشانك يا مرام ♡</div>
+</main>
+
+<div class="modal" id="modalBox">
+  <div class="modal-box">
+    <p id="modalText"></p>
+    <button class="pill" onclick="closeModal()">حبيبي تسلملي</button>
+  </div>
+</div>
+
+<script>
+function openModal(text){
+  document.getElementById('modalText').innerText = text;
+  document.getElementById('modalBox').classList.add('open');
+}
+function closeModal(){
+  document.getElementById('modalBox').classList.remove('open');
+}
+
+const pContainer = document.getElementById('particles');
+for(let i=0; i<15; i++){
+  const p = document.createElement('div');
+  p.className = 'particle';
+  p.innerHTML = '♥';
+  p.style.left = Math.random() * 100 + 'vw';
+  p.style.fontSize = (Math.random() * 10 + 10) + 'px';
+  p.style.animationDuration = (Math.random() * 5 + 4) + 's';
+  p.style.animationDelay = (Math.random() * 4) + 's';
+  pContainer.appendChild(p);
+}
+</script>
+</body>
+</html>
